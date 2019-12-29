@@ -39,7 +39,11 @@
 		</nav>
 		
 		
-		
+		<!-- Message Display Section -->
+		<div class = "container">
+			<div id = "message-display-container">
+			</div>
+		</div>
 
 
 		<!-- Message Typing section -->
@@ -48,12 +52,12 @@
 				</br>
 				<div class = "col-1"></div>
 				
-				<form>
+				<form id = "send-message">
 					<div class = "col-10">
-						<input class="form-control form-control-sm mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<input type = "text" class="form-control form-control-sm mr-sm-2" name = "new_message" placeholder="Type message">
 					</div>
 					<div class = "col-2">
-						<button class="btn btn-sm btn-outline-success my-2 my-sm-0" type="submit">Send</button>
+						<button type = "submit" class="btn btn-sm btn-outline-success my-2 my-sm-0" name = "send_message_button">Send</button>
 					</div>
 				</form>
 				
