@@ -4,7 +4,7 @@
   "description": "Simple Chat using socket.io",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon server.js",
+    "devStart": "nodemon server/server.js"
   },
   "author": "alpha74",
   "license": "ISC",
